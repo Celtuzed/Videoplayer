@@ -7,6 +7,11 @@
     
     .button-bg{
       background: black;
+      display: flex;
+      flex-direction: row;
+    }
+    .left-buttons{
+      flex-grow: 1;
     }
     .button-styles{
       border-style:none;
@@ -14,12 +19,12 @@
       color:white;
       background-color: transparent;
       font-size: 150%;
-      padding-bottom: 5px;
-      padding-left: 10px;
+      padding: 10px;
+      margin: 5px;
     }
     .player{
-      flex-direction: column;
       display: flex;
+      flex-direction: column;
       width: 800px;
       height: 600px;
       box-shadow: 0 0 15px rgba(0, 0, 0, 1);
@@ -36,18 +41,25 @@
     <div class="js-video-container video-container"></div>
     <!-- Here can be placed player controls: play and volume buttons -->
     <div class="button-bg">
-      <button class="js-play-button button-styles">
-        <i class="fa fa-play button" aria-hidden="true"></i>
-      </button>
-      <button class="js-pause-button button-styles" hidden>
-        <i class="fa fa-pause" aria-hidden="true"></i>
-      </button>
-      <button class="js-mute-button button-styles">
-        <i class="fa fa-volume-up" aria-hidden="true"></i>
-      </button>
-      <button class="js-volume-button button-styles" hidden>
-        <i class="fa fa-volume-off" aria-hidden="true"></i>
-      </button>
+      <div class="left-buttons">
+        <button class="js-play-button button-styles">
+          <i class="fa fa-play button" aria-hidden="true"></i>
+        </button>
+        <button class="js-pause-button button-styles" hidden>
+          <i class="fa fa-pause" aria-hidden="true"></i>
+        </button>
+        <button class="js-mute-button button-styles">
+          <i class="fa fa-volume-up" aria-hidden="true"></i>
+        </button>
+        <button class="js-volume-button button-styles" hidden>
+          <i class="fa fa-volume-off" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="right-buttons">
+        <button class="js-fullscreen-button button-styles">
+          <i class="fa fa-expand" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
