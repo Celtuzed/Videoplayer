@@ -1,11 +1,13 @@
 # Videoplayer
 
-Здесь находится плеер для просмотра видео
+- Здесь представлен плеер для просмотра видео
+- [Документация по плееру](https://github.com/devmanorg/video-player-jslib)
+- Чтобы посмотреть пример работы на сайте [тыкни сюда](https://celtuzed.github.io/Videoplayer/)
 
 ### Пример
 
 ![Videoplayer (0)](https://user-images.githubusercontent.com/76615478/201974612-cc62fa85-3b52-4024-98fe-964347fba7bb.gif)
 
-### Ссылка, чтобы посмотреть
+### Цель работы
 
-[Тыкни сюда](https://celtuzed.github.io/Videoplayer/)
+Код написан в учебных целях 
