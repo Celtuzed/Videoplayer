@@ -4,7 +4,7 @@
 
 ### Пример
 
-![Без имени-1](https://user-images.githubusercontent.com/76615478/200033134-73938a2a-50a9-45ca-9263-f4f6186dd282.png)
+![Videoplayer (0)](https://user-images.githubusercontent.com/76615478/201974612-cc62fa85-3b52-4024-98fe-964347fba7bb.gif)
 
 ### Ссылка, чтобы посмотреть
 
