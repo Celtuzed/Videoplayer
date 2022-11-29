@@ -57,7 +57,7 @@
       height: 5px;
       border-radius: 3px;
     }
-    .dot {
+    .progressbar .dot {
       height: 7px;
       width: 7px;
       margin: -7px;
@@ -68,6 +68,16 @@
       border-radius: 50%;
       display: inline-block;
       box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+      opacity: 0;
+      transition-property: opacity;
+      transition-duration: 300ms;
+      transition-timing-function: ease-in;
+    }
+    .progressbar:hover .dot {
+      opacity: 1;
+      transition-property: opacity;
+      transition-duration: 300ms;
+      transition-timing-function: ease-out;
     }
   </style>
   <script src="https://kit.fontawesome.com/b8b0b019f3.js" crossorigin="anonymous"></script>
