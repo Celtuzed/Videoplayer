@@ -2,7 +2,7 @@
 
 - Здесь представлен плеер для просмотра видео
 - [Документация по плееру](https://github.com/devmanorg/video-player-jslib)
-- Чтобы посмотреть пример работы на сайте [тыкни сюда](https://celtuzed.github.io/Videoplayer/)
+- Чтобы посмотреть пример работы на сайте [тыкни сюда](https://celtuzed.github.io/Videoplayer/){:target="_blank"}
 
 ### Пример
 
